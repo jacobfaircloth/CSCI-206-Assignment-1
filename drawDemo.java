@@ -23,9 +23,10 @@ public class drawDemo extends JPanel implements KeyListener, ActionListener  //c
         frame.setFocusTraversalKeysEnabled(false);
         
     }
+    
 
     public drawDemo()
-    
+
     {
         tm.start();
         addKeyListener(this);
