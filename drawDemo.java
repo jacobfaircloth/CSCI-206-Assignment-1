@@ -25,6 +25,7 @@ public class drawDemo extends JPanel implements KeyListener, ActionListener  //c
     }
 
     public drawDemo()
+    
     {
         tm.start();
         addKeyListener(this);
